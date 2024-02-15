@@ -1,0 +1,53 @@
+.navBar{
+    background-color: transparent;
+    background: transparent;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    width: 100vw;
+    z-index: 1000;
+    
+}
+
+.active{
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+    width: 100%;
+    width: 100vw;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    height: 5rem;
+}
+
+.navLogo{
+    padding: 1rem;
+    width: 16rem;
+    height: 5rem;
+}
+
+.navLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.navLinks{
+display: flex;
+align-items: center;
+justify-items: center;
+margin-right: 4rem;
+}
+
+.navLinks div{
+    margin: 0 1rem;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
