@@ -1,0 +1,76 @@
+.aboutHero{
+    margin: 0;
+    height: 100vh;
+    background: url("../assets/hero-image3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.storySVG{
+    width: 75%;
+    height: 75%;
+
+}
+.rarityStory{
+    margin: 10rem;
+    width: 60rem;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+flex-direction: column;
+}
+
+.rarityStory h1{
+    margin: 2rem;
+}
+
+.aboutMission{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+
+}
+
+.mission{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+flex-direction: column;
+height: 50rem;
+}
+
+.missionSVG{
+    width: 45%;
+    height: 85%;
+    margin-top: 4rem;
+}
+
+.mission h1{
+    margin: 2rem;
+    
+}
+
+.mission p{
+    margin-bottom: 4rem;
+    
+}
+
+.aboutWho{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/rarityi1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

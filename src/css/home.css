@@ -91,7 +91,7 @@
     align-items: center;
 }
 
-.homeServices{
+.homeServices, .aboutWho{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,7 @@
 }
 
 .homeAbout {
-    background: url("../assets/hero-image4.jpg");
+    background: url("../assets/rarityi3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,7 +126,7 @@
     text-align: center;
 }
 
-.homeAboutInfo{
+.homeAboutInfo {
   display: flex;
   justify-content: center;
   align-items: center
@@ -218,6 +218,15 @@ width: 28%;
   z-index: -500;
 }
 
-h2{
-  font-size: 2rem;
+.aboutWho{
+
+}
+
+.aboutWhoInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  
+
 }
